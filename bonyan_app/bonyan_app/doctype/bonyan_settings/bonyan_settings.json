@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2022-02-20 09:47:07.117007",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material_request_roles",
+  "expence_claim_roles"
+ ],
+ "fields": [
+  {
+   "fieldname": "material_request_roles",
+   "fieldtype": "Table",
+   "label": "Roles Has Permissions On All Material Request",
+   "options": "Bonyan Settings Roles",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expence_claim_roles",
+   "fieldtype": "Table",
+   "label": "Roles Has Permissions On Expence Claim Entries",
+   "options": "Bonyan Settings Roles",
+   "reqd": 1
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-02-20 11:32:42.004851",
+ "modified_by": "Administrator",
+ "module": "bonyan-app",
+ "name": "Bonyan Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

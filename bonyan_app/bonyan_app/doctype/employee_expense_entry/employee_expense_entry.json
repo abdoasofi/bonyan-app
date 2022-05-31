@@ -1,0 +1,179 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-01-01 20:06:20.931178",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "expense_claim_type",
+  "date",
+  "payable_account",
+  "submit_expense_after_create",
+  "amount",
+  "cost_center",
+  "column_break_6",
+  "gender",
+  "department",
+  "remark",
+  "expense_claim_request_type",
+  "section_break_9",
+  "employes",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "expense_claim_type",
+   "fieldtype": "Link",
+   "label": "Expense Claim Type",
+   "options": "Expense Claim Type"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "submit_expense_after_create",
+   "fieldtype": "Check",
+   "label": "Submit Expense After Create"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employee Expense Entry",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "employes",
+   "fieldtype": "Table",
+   "label": "Employes",
+   "options": "Employee Expense Tool"
+  },
+  {
+   "fieldname": "payable_account",
+   "fieldtype": "Link",
+   "label": "Payable Account ",
+   "options": "Account"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "naming_series",
+   "options": "HR-EMP-EXP-.YYYY.-"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Cost Center",
+   "options": "Cost Center",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "expense_claim_request_type",
+   "fieldtype": "Link",
+   "label": "Expense Claim Request Type",
+   "options": "Expense Claim Request Type",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "group": "Transaction",
+   "link_doctype": "Expense Claim",
+   "link_fieldname": "expense_entry"
+  },
+  {
+   "group": "Transaction",
+   "link_doctype": "Payment Entry",
+   "link_fieldname": "employee_expense_entry"
+  }
+ ],
+ "modified": "2022-03-08 10:34:40.018034",
+ "modified_by": "Administrator",
+ "module": "bonyan-app",
+ "name": "Employee Expense Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

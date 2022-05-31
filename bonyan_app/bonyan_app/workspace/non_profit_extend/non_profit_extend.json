@@ -1,0 +1,50 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-10-06 09:57:25.363438",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Non Profit",
+ "extends_another_page": 1,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Non Profit Extend",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Record",
+   "link_to": "Volunteer Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-10-06 09:57:55.451254",
+ "modified_by": "Administrator",
+ "module": "bonyan-app",
+ "name": "Non Profit Extend",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Volunteer Record",
+   "link_to": "Volunteer Record",
+   "type": "DocType"
+  }
+ ]
+}

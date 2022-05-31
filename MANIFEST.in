@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bonyan_app *.css
+recursive-include bonyan_app *.csv
+recursive-include bonyan_app *.html
+recursive-include bonyan_app *.ico
+recursive-include bonyan_app *.js
+recursive-include bonyan_app *.json
+recursive-include bonyan_app *.md
+recursive-include bonyan_app *.png
+recursive-include bonyan_app *.py
+recursive-include bonyan_app *.svg
+recursive-include bonyan_app *.txt
+recursive-exclude bonyan_app *.pyc

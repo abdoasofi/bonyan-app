@@ -1,0 +1,234 @@
+Language,Source Text,Translated Text
+ar,District Location,مديرية
+ar,Subdistrict Location,عزلة
+ar,Expense Claim,إخلاء عهدة
+ar,Task,نشاط رئيسي
+ar,Holiday List Calendar   ,تقويم قائمة العطلات
+ar,Geographical Scope ,النطاق الجغرافي
+ar,Project Beneficiaries ,المستفيدون من المشروع
+ar,Beneficiary Method,طريقة المستفيد
+ar,Project Beneficiary,المستفيدون من المشروع
+ar,Beneficiary Count,عدد المستفيدين
+ar,Beneficiary Type,نوع المستفيد
+ar,Implementing Partners ,الشركاء المنفذون
+ar,Implementing Partners ,الشريك المنفذ
+ar,Partner Name,اسم شريك
+ar,Project Donors,الجهات المانحة للمشروع
+ar,Risks and Mitigation ,المخاطر والتخفيف
+ar,Project Risks,مخاطر المشروع
+ar,Mitigation Plan,خطة التخفيف
+ar,Cash Amount,مبلغ نقدي
+ar,Bank Amount,مبلغ البنك
+ar,Project Documents,وثائق المشروع
+ar,Dependent Projects ,المشاريع التابعة
+ar,Dependent Project,مشروع تابع
+ar,Type,نوع
+ar,Extra Note,ملاحظة اضافية
+ar,Partner Name ,اسم شريك
+ar,Edit Filters ,تحرير المرشحات
+ar,Show Saved,إظهار المحفوظة
+ar,Copy to Clipboard ,نسخ إلى الحافظة
+ar,Kanban,كانبان
+ar,Calendar,التقويم
+ar,Choose a color,اختيار اللون
+ar,Is Template,هو نموذج
+ar,Task Mode,وضع المهمة
+ar,Monual Scheduling ,الجدولة الأحادية
+ar,Auto Scheduling,الجدولة التلقائية
+ar,Physical Progress Completion ,إتمام التقدم المادي
+ar,Deadline Date ,تاريخ الموعد النهائي
+ar,Actual Duration,المدة الفعلية
+ar,Log Frame,سجل الإطار
+ar,Has Log Frame,له إطار سجل
+ar,Assumptions,افتراض
+ar,Community Contribution,مساهمة المجتمع
+ar,Apply Fliters,تطبيق فليتر
+ar,Add a Fliter,أضف فليتر
+ar,Project Summary,ملخص المشروع
+ar,Average Completion,متوسط الإنجاز
+ar,Completed Tasks,المهام المكتملة
+ar,Overdue Tasks,المهام المتأخرة
+ar,Total Tasks,إجمالي المهام
+ar,Completed Tasks,المهام المكتملة
+ar,Overdue ,متأخر
+ar,Up Level,مستوى أفضل
+ar,Indicators,المؤشرات
+ar,Resource,الموارد
+ar,Resource Name,اسم المورد
+ar,Indicator Value,قيمة المؤشر
+ar,Indicator Source,مصدر المؤشر
+ar,Indicator Responsible ,المؤشر مسؤول
+ar,Set Up,يثبت
+ar,Indicator Aggregation ,تجميع المؤشر
+ar,Document File Category,فئة ملف المستند
+ar,Coordinator ,منسق
+ar,Beneficiary Sheet Tool Import,استيراد أداة ورقة المستفيد
+ar,Beneficiary Type,نوع المستفيد
+ar,Beneficiary Age ,سن المستفيد
+ar,Resources,موارد
+ar,Resource,الموارد
+ar,Task Resource Request,طلب موارد المهمة
+ar,Task Resource Request Tool,أداة طلب موارد المهام
+ar,Resource Account Type ,نوع حساب المورد
+ar,Risks,المخاطر
+ar,Risk Category,درجة الخطوره
+ar,Baselines,خطوط الأساس
+ar,Baseline,حدود
+ar,Recurring Tasks Tool,أداة المهام المتكررة
+ar,Task Resource Request Tool,أداة طلب موارد المهام
+ar,Parent Goal,هدف الأب
+ar,Program Manager,مدير البرنامج
+ar,initiating,اعداد
+ar,Funded,ممول
+ar,No Funded,عير ممول
+ar,Estimated Budget,الميزانية التقديرية
+ar,Program Document,وثيقة البرنامج
+ar,Add New,اضف جديد
+ar,Log Frame for,سجل الإطار لأجل
+ar,Text Type,إدخال النص
+ar,Subject Text,نص الموضوع
+ar,Risks and Assumption ,المخاطر والافتراض
+ar,Assumption,افتراض
+ar,Geographical Scope ,النطاق الجغرافي
+ar,Project Documents,وثيقة المشروع
+ar,Strategic Goals,الأهداف الاستراتيجية
+ar,Rebuild Tree,إعادة بناء الشجرة
+ar,Indicator Name,اسم المؤشر
+ar,Indicator For,مؤشر لأجل
+ar,Date Of Birth ,تاريخ الميلاد
+ar,Generic,نوعي
+ar,status,الحالة
+ar,Resource Type,نوع المورد
+ar,Work,عمل
+ar,Unactive,غير نشط
+ar,Prorated,نسبي
+ar,End,نهاية
+ar,People,اشخاص
+ar,Equipement,تجهيز
+ar,Acrue at ,استحقاق في
+ar,Work Type,نوع العمل
+ar,For Naming Roles as Resource,لتسمية الأدوار كمورد
+ar,Resource Company,شركة الموارد
+ar,Resource Department,قسم الموارد
+ar,Max Unit ,أعلى وحدة
+ar,Overtime Rate,معدل العمل الإضافي
+ar,Standard Rate,المعدل القياسي
+ar,Overtime Unit,وحدة العمل الإضافي
+ar,Standard Unit,وحدة القياسية
+ar,Tax Amount,قيمة الضريبة
+ar,Insurance Amount,مبلغ التأمين
+ar,Other Amount ,كمية أخرى
+ar,Timesheet Manager,مدير الجدول الزمني
+ar,Estimated Budget ,الميزانية التقديرية
+ar,Value Type,نوع القيمة
+ar,Indicator Name,اسم المؤشر
+ar,Simple,بسيط
+ar,Outcome,نتيجة
+ar,Baseline,خط الأساس
+ar,Baseline Date ,تاريخ خط الأساس
+ar,Target Date,تاريخ
+ar,Annually,سنوي
+ar,Biaccually,بشكل ثنائي
+ar,One-Off,لمرة واحدة
+ar,Achieved Weight,الوزن المحقق
+ar,Indicator Aggregation ,تجميع المؤشر
+ar,Evidence,دليل
+ar,Is User,هل هو مستخدم
+ar,Responsible Name,اسم المسؤل
+ar,Parent Project Sector ,القطاع الرئيسي
+ar,description,وصف
+ar,Partner User  ,المستخدم الشريك
+ar,Total Cost in Project Currency,التكلفة الإجمالية بعملة المشروع
+ar,Assignment Date,تاريخ التكليف
+ar,Allocated Date,تاريخ اﻹسناد
+ar,Request Date,تاريخ الطلب
+ar,Has Comment,لديه تعليق
+ar,Project Request Serial Number,الرقم التسلسلي لطلب المشروع
+ar,You haven't created a Resource Account Type yet ,لم تقم بإنشاء نوع حساب المورد حتى الآن
+ar,Risk Title,عنوان المخاطرة
+ar,Probability,احتمالا
+ar,Impact,تأثير
+ar,Risk Type,نوع المخاطرة
+ar,Mitigation Plan,خطة الوقاية
+ar,You haven't created a Risk Category yet ,لم تقم بإنشاء فئة مخاطر حتى الآن
+ar,Recurrence Pattern,نمط التكرار
+ar,Every 1 day(s),كل يوم (أيام)
+ar,workdays,أيام العمل
+ar,days,أيام
+ar,Range of Recurrence ,نطاق التكرار
+ar,You haven't created a Baseline yet,لم تقم بإنشاء خط أساس حتى الآن
+ar,Selected Document,وثيقة مختارة
+ar,Color Gantt Chart,لون مخطط جانت
+ar,Setting Name,اسم الإعداد
+ar,Fixed Duration,مدة ثابتة
+ar,Fixed Work,عمل ثابت
+ar,Fixed Unit,وحدة ثابتة
+ar,New tasks are effort driven,أنشطة جديده تتطلب جهد
+ar,Show Tasks Scheduled Warning,إظهار التحذيرات للأنشظة المجدولة
+ar,Show Tasks Scheduled Suggestion,إظهار الأقتراحات للأنشظة المجدولة
+ar,Manual Scheduling,جدولة يدوية
+ar,Auto Scheduling,جدولة تلقائية
+ar,Duration Entry Time ,وقت ادخال المدة
+ar,Tax Implemented,فرض الضرائب
+ar,Budget Settings,إعدادات الميزانية
+ar,Stop Create Budget if more Expected Cost,توقف عن إنشاء الميزانية إذا كانت التكلفة المتوقعة أكبر
+ar,The project baseline should always come in-between the planning phase and the start of the project.You should only re - baseline when you have major changes in your project such as: delays overrun of budget or loss of key resources,يجب أن يأتي خط الأساس للمشروع دائمًا بين مرحلة التخطيط وبداية المشروع. يجب عليك إعادة تحديد الأساس فقط عندما يكون لديك تغييرات كبيرة في مشروعك مثل: التأخير في تجاوز الميزانية أو فقدان الموارد الرئيسية
+ar,Task Notification,إشعار النشاط
+ar,Notify for Overdue Task,إشعار بالأنشطة المتاخرة
+ar,Deadline Notification,إشعار بقرب الانتهاء
+ar,Project Settings ,أعدادات المشروع
+ar,Project Dashboard Limit Days ,أيام محدودة للوحة قيادة المشروع
+ar,Allow Program Coordinator To see All Project,السماح لمنسق البرنامج برؤية كل المشاريع
+ar,Has no Users,ليس لديه مستخدم
+ar,Has no Customer,ليس لديه عميل
+ar,Resource Settings ,أعدادات الموارد
+ar,Standard Unit,الوحدة القياسية
+ar,Default Fixed Cost Accrual,تراكم التكلفة الثابتة الافتراضية
+ar,Display Options For Time ,عرض خيارات الوقت
+ar,Minutes Text,نص الدقائق
+ar,Week Text,نص الأسبوع
+ar,Hour Text,نص الساعة
+ar,Month Text,نص الشهر
+ar,Day Text ,نص اليوم
+ar,Allow Link Task With Program Output,السماح بربط الأنشطة بمخرج برنامج
+ar,Allow Adding Output to the Main Goal,السماح بأضافة مخرج للاثر الرئسي
+ar,Permit Adding Outcome without Goal,منع أضافة نتيجة من دون اثر
+ar,Permit Adding Output without Outcome,منع اضافة مخرج من دون نتيجة
+ar,Permit Adding more then One Goal to Document,منع اضافة اكثر من اثر لنفس الوثيقة
+ar,Account Section ,قسم الحساب
+ar,Allow Linking Resources with Accounts,السماح بربط المورارد بحسابات مالية
+ar,Budget Settings,اعدادات الموازمة
+ar,Stop Create Budget if more Expected Cost,ايقاف انشاء المؤازنة الاكبر من التكلفة المتوقعه
+"ar","District Location","مديرية"
+"ar","Subdistrict Location","عزلة"
+"ar","Expense Claim","إخلاء عهدة"
+"ar","Task","نشاط رئيسي"
+"ar","Project Request","طلب مشروع"
+"ar","Advance Amount Greater than Remaining Amount for this project ","المبلغ المقدم اكبر من المبلغ المتبقي في هذا المشروع"
+"ar","Action if Annual Budget Exceeded on Actual for Project","الإجراء إذا تم تجاوز الميزانية الفعلية للمشروع"
+"ar","Applicable on Employee Advance","ينطبق على تقديم الموظف"
+"ar","Introducing the Applicant","التعريف بمقدم الطلب"
+"ar","Project Applicant","مقدم الطلب"
+"ar","Adjective","صفتة"
+"ar","Employer","جهة العمل"
+"ar","Business Address","عنوان جهة العمل"
+"ar","Entity phone number","رقم تلفون الجهة"
+"ar","Employer Email","ايميل جهة العمل"
+"ar","Geographical Scope","النطاق الجغرافي"
+"ar","Request Sector","قطاع الطلب"
+"ar","Request Description","وصف الطلب"
+"ar","Indicators","المؤشرات"
+"ar","Set Program Frist", "ادخل البرنامج اولا"
+"ar","Applicant Address","عنوان مقدم الطلب"
+"ar","Draft","مؤرشف"
+"ar","Project Sector","قطاع المشروع"	
+"ar","Project Spending Amount","مبلغ الانفاق الفعلي للمشروع"
+"ar","Remaining Amount Base on Budget","المبلغ المتبقي بناء على الميزانية"
+"ar","Pending Project Advance Amount","مبلغ العهد للمشروع "
+"ar","Project Balance Amount","رصيد المشروع"
+"ar","Default Employee Covenant Account","	الحساب الافتراضي لعهد الموظفين"
+"ar","Covenant","عهدة"
+"ar","Project and Task","المشروع والنشاط"
+"ar","Birth Location","موقع الولادة"
+"ar","Registrant Data","سجل الموظف"
+"ar","Employee who Responsible for","الموظف المسئول عن المتطوع"

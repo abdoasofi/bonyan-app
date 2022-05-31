@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "autoname": "format:VR-{YYYY}-{#####}",
+ "creation": "2021-10-05 14:05:10.284679",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "employee",
+  "employee_full_name",
+  "volunteer",
+  "volunteer_name",
+  "column_break_3",
+  "volunteer_hours_approver",
+  "approver_full_name",
+  "date",
+  "hours",
+  "description",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Hours",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Volunteer Record",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval: doc.type==\"Employee\"",
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Type",
+   "options": "Employee\nVolunteer"
+  },
+  {
+   "depends_on": "eval: doc.type==\"Volunteer\"",
+   "fieldname": "volunteer",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Volunteer",
+   "options": "Volunteer"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "options": "today"
+  },
+  {
+   "depends_on": "eval: doc.type==\"Employee\"",
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_full_name",
+   "fieldtype": "Data",
+   "label": "Employee Full Name",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval: doc.type==\"Volunteer\"",
+   "fetch_from": "volunteer.volunteer_name",
+   "fieldname": "volunteer_name",
+   "fieldtype": "Data",
+   "label": "Volunteer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "volunteer_hours_approver",
+   "fieldtype": "Link",
+   "label": "Volunteer Hours Approver",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "volunteer_hours_approver.employee_name",
+   "fieldname": "approver_full_name",
+   "fieldtype": "Data",
+   "label": "Approver Full Name",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-01-01 15:25:49.898946",
+ "modified_by": "Administrator",
+ "module": "bonyan-app",
+ "name": "Volunteer Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Non Profit Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Non Profit Member",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "employee,volunteer,hours",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

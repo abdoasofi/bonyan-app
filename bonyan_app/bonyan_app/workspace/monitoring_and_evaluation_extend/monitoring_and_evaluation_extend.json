@@ -1,0 +1,43 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-10-13 14:45:29.036065",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Monitoring and Evaluation",
+ "extends_another_page": 1,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Monitoring and Evaluation Extend",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tools",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Manufacturing Request Tool",
+   "link_to": "Manufacturing Request Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-10-13 14:45:46.835339",
+ "modified_by": "Administrator",
+ "module": "bonyan-app",
+ "name": "Monitoring and Evaluation Extend",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": []
+}

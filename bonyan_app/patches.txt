@@ -1,0 +1,3 @@
+bonyan_app.patches.add_manufacturing_warehouse_type
+bonyan_app.patches.add_accounting_dimension
+
